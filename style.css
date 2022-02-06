@@ -1,0 +1,162 @@
+@import url('"https://fonts.googleapis.com/css2?family=Quintessential&display=swap"');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&family=Rowdies:wght@300&display=swap');
+
+body{
+    background: #eeeff0;
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.iframe_class{
+    width:100%;
+    border:0;
+    padding:0;
+    height:230px;
+}
+
+.header{
+    background: rgb(23,44,98);
+    background: linear-gradient(117deg, rgba(23,44,98,1) 0%, rgba(65,104,212,1) 46%, rgba(7,38,87,1) 100%);
+    width:100%;
+    color: white;
+    text-align: center;
+    padding-top: 0.01%;
+    padding-bottom: 2%;
+    
+}
+
+.logo{ 
+    padding: 1px;
+    margin:auto;
+    display:block;
+    width: auto;;
+    height: auto;;
+    text-shadow: 10px 10px 12px #000000;
+}
+
+.brandname{ 
+     font-weight:800; 
+    font-size:24px; 
+     text-transform: uppercase; 
+     letter-spacing: 4px; 
+     font-family: "sofia", sans-serif; 
+} 
+
+.brandslogan{
+    margin-top:-10px;
+    font-weight: 100;
+    color:aquamarine;
+    font-size:22px;
+    letter-spacing: 2px;
+    font-family: "Quintessential";
+    color: white;
+    text-shadow: 20px 20px 24px #000000;
+}
+
+.stickbar{
+    text-align: center;
+    position: sticky;
+    top: 0;    
+    padding: 10px;
+    font-size: 20px;
+} 
+
+
+.linkbutton{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    border:solid 2px white;
+    background-color: rgba(201, 76, 76, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding:6px;
+    font-size: 11px;
+}
+
+.linkbutton:hover{
+    background-color:#4988e6;
+    
+}
+
+.dropbtn {
+    background-color: #1138e2e0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+    
+.dropdown-content a:hover {background-color: #f1f1f1}
+    
+.dropdown:hover .dropdown-content {
+    display: block;
+    }
+    
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+    }
+    
+.footer{
+    text-align: center;
+    margin:auto;
+    height:20px;
+    background-color: black;
+    padding: 20px;
+    color: rgb(243, 243, 243);
+    bottom:0;
+    width:100%;
+}
+
+.content{
+    padding:15px;
+}
+
+.dogs{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.cats{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link{
+    text-align: center;
+}
