@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a {
+  background-color: RED;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: #ce0606;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+ 
+<img src='https://lh5.googleusercontent.com/TGt66xuxAsm2gyH7hgH1NnDA6HyupBzDiOCZXOshVZldq87kgikUyIdV_fWLFPxp3bh-qRFQv_pVPEnI74NEWYeZ5cYDAOiEFkGI7ALvVnuZFWmtRxd3N6DbAIreLJG2vw' align='left' height='150' width='150'/>
+
+<img src='https://lh5.googleusercontent.com/TGt66xuxAsm2gyH7hgH1NnDA6HyupBzDiOCZXOshVZldq87kgikUyIdV_fWLFPxp3bh-qRFQv_pVPEnI74NEWYeZ5cYDAOiEFkGI7ALvVnuZFWmtRxd3N6DbAIreLJG2vw' align='right' height='150' width='150'/>
+
+ <h1>BOOKFLIX</h1>
+
+
+ <marquee width='60%' Behavior='alternate' > <p>You are provided with all types of books here.</p></marquee>
+
+</div>
+
+
+<div class="topnav">
+  <a href="https://www.goodreads.com/genres/childrens">Kids Books</a>
+  <a href="https://pdfstop.com/category/harry-potter-1/page/2/#:~:text=Book%201:%20Harry%20Potter%20and%20the%20Sorcerer's%20Stone.,Book%206:%20Harry%20Potter%20and%20the%20Half-Blood%20Prince.">Harry Potter</a>
+  <a href="https://thelandofstories.com/">The Land of Stories</a>
+  <a href="https://www.barnesandnoble.com/blog/50-ya-novels-adults-will-love/">Adult Novels</a>
+  <a href="https://archive.org/details/EnidBlytonFamousFive/01%20Five%20on%20a%20Treasure%20Island/page/n5/mode/2up">Famous Five</a>
+  <a href="https://wimpykid.com/">Whimpy Kid</a>
+  <a href="https://www.dorkdiariesbooks.com/">Dork Diaries</a>
+  <a href="https://www.goodreads.com/book/show/697354.Voyageurs">Voyagers</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Fictional Books</h2>
+      <div class="fakeimg" style="height:200px;">
+<img src='https://th.bing.com/th/id/OIP.NWtjIQBiTHbnNj3kGaPGNgHaJ4?w=182&h=243&c=7&o=5&dpr=1.5&pid=1.7' height='160' width='140' />
+
+<img src='https://th.bing.com/th/id/OIP.XwjYuQ5EzVWrdFRxfZKw0AHaJ4?w=182&h=243&c=7&o=5&dpr=1.5&pid=1.7' height='160' width='130' align='left'/
+
+><img src='https://th.bing.com/th/id/OIP.UwyuI9zZRd2DwEutnjte_AHaJ4?w=182&h=243&c=7&o=5&dpr=1.5&pid=1.7' height='160' width='130' align='left'/>
+
+<img src='https://th.bing.com/th/id/OIP.mcHevHu7RN6IXJwmOVG8BAHaJ4?w=182&h=243&c=7&o=5&dpr=1.5&pid=1.7' height='160' width='125'/>
+
+<img src='https://th.bing.com/th/id/OIP.kfe6P0KLDafF_yEieqZc0QHaLL?w=182&h=275&c=7&o=5&dpr=1.5&pid=1.7' height='160' width='125'/>
+
+<img src='https://th.bing.com/th/id/OIP.uPAhrz8kSkxnlYopBWKfzwHaJ4?w=182&h=243&c=7&o=5&dpr=1.5&pid=1.7' height='160' width='125'/>
+
+</div>
+  
+      <p>A fictional book is a text created specifically for a work in an imaginary narrative that is referred to, depicted, or excerpted in a story, book, film, or other fictional work, and which exists only in one or more fictional works.</p>
+<a href='https://www.barnesandnoble.com/b/books/fiction/_/N-29Z8q8Z10h8'>Click here to view more</a>
+    </div>
+    <div class="card">
+      <h2>Science Books</h2>
+
+      <div class="fakeimg" style="height:200px;"><CENTER><img src='https://th.bing.com/th/id/OIP.MkABKFsUCBRMdvriMl5pHgHaKe?w=182&h=257&c=7&o=5&dpr=1.5&pid=1.7' height='160' width='150' align='left' />
+
+<img src='https://th.bing.com/th/id/OIP.5MPD9okgiTch6EDgbFtLbwHaNb?w=182&h=331&c=7&o=5&dpr=1.5&pid=1.7' height='160' width='150' align='left' />
+
+<img src='https://th.bing.com/th/id/OIP.mCZ_uHiIJdjgNt0uI1WAOwHaJV?w=182&h=230&c=7&o=5&dpr=1.5&pid=1.7' height='160' width='150' align='left'/>
+
+<img src='https://th.bing.com/th/id/OIP.D3b9i0mwoxPfTHjKEC_Q7wHaJo?w=182&h=237&c=7&o=5&dpr=1.5&pid=1.7' height='160' width='150' align='left'/>
+
+<img src='https://th.bing.com/th/id/OIP.YiUFOkq2rHcW0k0uwUphyQHaJj?w=182&h=234&c=7&o=5&dpr=1.5&pid=1.7' height='160' width='150' align='left'/>
+
+</CENTER></div>
+
+      <p>The Science Book encapsulates centuries of scientific thought in one volume. Natural phenomena, revolutionary inventions, scientific facts, and the most up-to-date questions are all explained in detailed text that is complemented by visually arresting graphics.</p>
+
+<a href='https://www.goodreads.com/genres/science'> Click here to view more </a>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h3>Book Review of Harry Potter</h3>
+      
+      <p>This series of book is really very nice book to read.</p>
+<a href='https://thesidetable.home.blog/2020/05/10/book-review-harry-potter-and-the-sorcerers-stone/'>More Reviews</a>
+
+    </div>
+    <div class="card">
+<h3>Fun facts</h3>
+-The first-ever “Harry Potter” was a short story published in communist Poland in 1972.
+
+
+
+    </div>
+    <div class="card">
+      <h3>Contact Us for more Info.</h3>
+   <b>Email:</b> www.BookFlix.com
+<br>
+<b>Mobile No:</b> 0501032301
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <marquee><h2>Thank you for Visiting</h2></marquee>
+</div>
+
+
+</body>
+</html>
